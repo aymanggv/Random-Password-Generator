@@ -37,3 +37,29 @@ A simple Python script that generates secure random passwords based on user pref
 ## Requirements
 - Python 3.x
 - No external dependencies (uses built-in random and string modules)
+
+---
+
+## Code Structure
+
+- Collects user preferences for password generation
+- Validates minimum length requirement
+- Builds a character set based on user selections
+- Ensures at least one character from each selected type
+- Randomly selects remaining characters to reach desired length
+- Shuffles the final password for additional randomness
+
+---
+
+## Example Output
+```text
+What length would you like your password to be?: 12
+Should there be an uppercase letter? (y/n): y
+Should there be digits? (y/n): y
+Should there be a punctuation? (y/n): y
+Your randomly generated password is: xD3!k9Lp@2#v
+```
+
+---
+
+
